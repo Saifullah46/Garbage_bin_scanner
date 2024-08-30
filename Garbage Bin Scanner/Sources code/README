@@ -1,0 +1,29 @@
+Garbagebin Scanner
+
+This apllication is to supervise whether the garbagebin is collected or not . And send the information whether the garbage bin is collected or not to the respective officials . the prototype we've developed is a desktop application written on python. Since this is a desktop apllication, to use this application in realtime the ramchip can be used to run the apllication continously and to send the detected image to the data server to process the information and circulate the report. The xml file used for this application and data set of the application is also attached. The bin is detcted by adding the xml file in the code and saves the detected images in the seperate directory. The environment used to develop this apllication is "Pycharm". The framework used, "Cascade trainer GUI". Opencv, tkinter, osmodule are  the tools used for this application.
+
+HOW TO RUN THE CODE:
+
+step-1:
+   declacre the function
+   
+step-2:
+   give xml files in the code
+   
+step-3:
+   import the functions from file
+   
+step-4:
+   run the program
+   
+step-5:
+   Dialog box will appear with "start" button  
+
+step-6:
+   press start to detect the object
+   
+step-7:
+   press 'q' to end the code
+   
+step-8:
+   detected images will be saved in the directory
